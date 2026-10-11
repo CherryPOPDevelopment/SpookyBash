@@ -1,0 +1,2 @@
+# SpookyBash
+halloween party website
