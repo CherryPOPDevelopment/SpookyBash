@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lynn's Halloween Party</title>
+    <meta
+      name="description"
+      content="Halloween party details, parking instructions, apartment access, food and drinks, activities, allergies, overnight stay information, and contact info."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Creepster&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <div class="brand">Lynn's Halloween Bash</div>
+        <div class="nav-links">
+          <a href="#arrival">Arrival</a>
+          <a href="#details">Details</a>
+          <a href="#allergies">Allergies</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Spooky Season</p>
+            <h1>Join the Halloween party.</h1>
+            <p class="subtitle">
+              Food, drinks, pumpkin carving, photos, and a safe, welcoming night with friends.
+            </p>
+            <div class="cta-row">
+              <a class="button primary" href="#arrival">Plan your visit</a>
+              <a class="button secondary" href="#contact">Contact Lynn</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <div class="card-badge">Event Details</div>
+            <ul>
+              <li>Parking at the top of garage</li>
+              <li>Register2Park: Unit 4415</li>
+              <li>Elevator code: 6739</li>
+              <li>Fourth floor</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="arrival" class="info-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Getting here</p>
+            <h2>Arrival instructions</h2>
+          </div>
+
+          <div class="cards three-up">
+            <article class="info-card accent">
+              <span class="card-number">01</span>
+              <h3>Parking</h3>
+              <p>Park at the top of the garage and register your car with <strong>Register2Park</strong>.</p>
+              <p class="highlight">Unit number: <strong>4415</strong></p>
+            </article>
+
+            <article class="info-card">
+              <span class="card-number">02</span>
+              <h3>Apartment access</h3>
+              <p>Go down the stairs to the elevator, then use the code <strong>6739</strong>.</p>
+              <p class="highlight">Make your way to the <strong>fourth floor</strong>.</p>
+            </article>
+
+            <article class="info-card">
+              <span class="card-number">03</span>
+              <h3>Welcome</h3>
+              <p>Drinks and food are provided, but feel free to bring a little extra if you'd like.</p>
+              <p class="highlight">Pumpkin carving and photos are in the guest room.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="details" class="info-section dark-panel">
+        <div class="container split-layout">
+          <div>
+            <p class="eyebrow">At the party</p>
+            <h2>What to expect</h2>
+            <p>
+              The apartment is set up for a cozy, festive night with snacks, drinks, seasonal fun,
+              and plenty of room for everyone to relax, mingle, and celebrate the Halloween spirit.
+            </p>
+          </div>
+
+          <div class="list-box">
+            <ul>
+              <li>Drinks and food provided</li>
+              <li>Feel free to bring something to share</li>
+              <li>Pumpkin carving in the guest room</li>
+              <li>Photo moments throughout the apartment</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="allergies" class="info-section">
+        <div class="container">
+          <div class="section-heading narrow">
+            <p class="eyebrow">Important notes</p>
+            <h2>Allergies & safety</h2>
+          </div>
+
+          <div class="cards two-up">
+            <article class="info-card warning">
+              <h3>Allergy notice</h3>
+              <p>There will be peanuts, dairy, cats, rats, and gluten in the apartment.</p>
+              <p class="highlight">Please let us know ahead of time for any accommodations needed.</p>
+            </article>
+
+            <article class="info-card safe">
+              <h3>Stay safe</h3>
+              <p>Anyone is welcome to stay the night for safety.</p>
+              <p class="highlight">We do not promote driving under the influence—just let us know if you need help getting home.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="info-section footer-panel">
+        <div class="container contact-box">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Reach out to Lynn</h2>
+          </div>
+
+          <div class="contact-grid">
+            <div>
+              <label>Name</label>
+              <p>Lynn</p>
+            </div>
+            <div>
+              <label>Instagram</label>
+              <p>@LLCherry_BlossomLL</p>
+            </div>
+            <div>
+              <label>Phone</label>
+              <p>972-704-5591</p>
+            </div>
+          </div>
+
+          <p class="contact-note">
+            Please contact me on Instagram or by phone with any questions, needs, or timing updates.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Happy Halloween</p>
+        <p>© <span id="year"></span> Lynn's Halloween Bash</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
